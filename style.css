@@ -51,3 +51,26 @@ li{
     background: url(pictures/black-and-gray-motherboard-2582937.jpg) no-repeat;
     width: 24%;
 }
+/* ------------------- COMPANY ------------------- */
+#company{
+    position: relative;
+}
+img{
+    height: 90vh;
+    width:24%;
+    position: absolute;
+    bottom: 0;
+}
+p{
+    height: 50%;
+    text-align: center;
+    //border: 1px solid red;
+    position: absolute;
+    margin-left: 25%;
+    padding: 3%;
+    top: 20%;
+    font-size: 140%;
+}
+/* ------------------- TEAM ------------------- */
+/* ------------------- SERVICES ------------------- */
+/* ------------------- CONTACT ------------------- */
