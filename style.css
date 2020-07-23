@@ -2,3 +2,52 @@
     padding: 0;
     margin: 0;
 }
+header, section, main, footer{
+    width: 90vw;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 100vh;
+}
+
+/* ------------------- HOMEPAGE ------------------- */
+header{
+    height: 10vh;
+    position: fixed;
+    //border: 2px solid black;
+    top: 2%;
+}
+nav{
+    text-align: center;
+    font-size: 180%;
+    position: relative;
+    top: 20%;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 50px;
+}
+#firstPage{
+    height: 90vh;
+    //border: 1px solid blue;
+    font-size: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+#firstPage div{
+    background-size: cover;
+    height: 100%;
+}
+.leftPicture{
+    background: url(pictures/black-and-gray-motherboard-2582937.jpg) no-repeat;
+    width: 24%;
+}
+.centerPicture{
+    background: url(pictures/picRight.jpg) no-repeat;
+    width: 50%;
+}
+.rightPicture{
+    background: url(pictures/black-and-gray-motherboard-2582937.jpg) no-repeat;
+    width: 24%;
+}
