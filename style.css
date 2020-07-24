@@ -2,30 +2,48 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-size: 30px;
+}
 header, section, main, footer{
     width: 90vw;
     margin: 0 auto;
-    border: 1px solid red;
+    //border: 1px solid red;
     height: 100vh;
 }
 
 /* ------------------- HOMEPAGE ------------------- */
 header{
-    height: 10vh;
-    position: fixed;
-    //border: 2px solid black;
-    top: 2%;
+    width: 100vw;
+    height:10vh;
 }
 nav{
-    text-align: center;
-    font-size: 200%;
-    position: relative;
-    top: 20%;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #2a2a2a;
+    color: white;
+    z-index: 2;
+    border: 1px solid black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    //line-height: 2;
 }
 li{
     display: inline-block;
     list-style-type: none;
-    padding-left: 50px;
+    padding: 5px;
 }
 #firstPage{
     height: 90vh;
