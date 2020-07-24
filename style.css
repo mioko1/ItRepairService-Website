@@ -18,7 +18,7 @@ header{
 }
 nav{
     text-align: center;
-    font-size: 180%;
+    font-size: 200%;
     position: relative;
     top: 20%;
 }
@@ -72,5 +72,60 @@ p{
     font-size: 140%;
 }
 /* ------------------- TEAM ------------------- */
+h3{
+    font-size: 200%;
+    text-align: center;
+    line-height: 3;
+    position: relative;
+    top: 15vh;
+}
+.slider{
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+   //border: 2px solid blue;
+    position: relative;
+    margin-top: 15vh;
+}
+.worker{
+    height: 100%;
+    width: 70vw;
+    background: url(pictures/man1.jpg) no-repeat;
+    background-size: contain;
+    animation: 20s workers infinite;
+    margin: 0 auto;
+    background-position: center;
+   // border: 2px solid black;
+}
+@keyframes workers{
+    0%{
+        background: url(pictures/man1.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    25%{
+        background: url(pictures/man2.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+        //left: 0;
+    }
+    50%{
+        background: url(pictures/man3.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+        //left: 15vw;
+    } 
+    75%{
+        background: url(pictures/man4.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+        //left: 0;
+    } 
+    100%{
+        background: url(pictures/man1.jpg) no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
 /* ------------------- SERVICES ------------------- */
 /* ------------------- CONTACT ------------------- */
