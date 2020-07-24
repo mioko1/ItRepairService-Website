@@ -51,7 +51,7 @@ li{
     font-size: 0;
     display: flex;
     justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 1vh;
 }
 #firstPage div{
     background-size: cover;
@@ -87,33 +87,31 @@ p{
     margin-left: 25%;
     padding: 3%;
     top: 20%;
-    font-size: 140%;
 }
 /* ------------------- TEAM ------------------- */
-h3{
-    font-size: 200%;
-    text-align: center;
-    line-height: 3;
+#team{
     position: relative;
-    top: 15vh;
+    padding-top: 15vh;
+}
+h3{
+    font-size: 110%;
+    text-align: center;
+    padding: 25px;
 }
 .slider{
     width: 80%;
-    height: 70vh;
+    height: 90%;
     margin: 0 auto;
-   //border: 2px solid blue;
     position: relative;
-    margin-top: 15vh;
 }
 .worker{
-    height: 100%;
+    height: 70%;
     width: 70vw;
     background: url(pictures/man1.jpg) no-repeat;
     background-size: contain;
     animation: 20s workers infinite;
     margin: 0 auto;
     background-position: center;
-   // border: 2px solid black;
 }
 @keyframes workers{
     0%{
@@ -125,19 +123,16 @@ h3{
         background: url(pictures/man2.jpg) no-repeat;
         background-size: contain;
         background-position: center;
-        //left: 0;
     }
     50%{
         background: url(pictures/man3.jpg) no-repeat;
         background-size: contain;
         background-position: center;
-        //left: 15vw;
     } 
     75%{
         background: url(pictures/man4.jpg) no-repeat;
         background-size: contain;
         background-position: center;
-        //left: 0;
     } 
     100%{
         background: url(pictures/man1.jpg) no-repeat;
