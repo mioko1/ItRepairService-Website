@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-size: 30px;
@@ -85,48 +86,48 @@ li{
         font-size: 120%;;
     }
 }
-/* ------------------- COMPANY ------------------- 
+/* ------------------- COMPANY ------------------- */
 #company{
     position: relative;
     text-align: center;
 }
 #company img{
-    height: 20vh;
-    width: 30vw;
-    bottom: 0;
-    position: relative;
-    margin: 2vh auto;
+    height: 30vh;
+    width: 40vw;
+    position: absolute;
+    margin-top: 12vh;
+    left: 25vw;
+    display: block;
 }
 #company p{
-    //height: 90%;
-    width: 80%;
-    text-align: center;
-    position: relative;
-    font-size: 50%;
-    margin: 2vh auto;
-    
-}*/
-@media (min-width: 500px){
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    font-size: 1.8vmax;
+    margin-top: 50vh;
+    padding: 5%;
+    display: block;
+}
+@media (min-width: 1500px){
     #company img{
-        height: 90vh;
+        height: 100vh;
         width: 24%;
         display: inline-block;
-        //position: relative;
-       // margin-top: 2vh;
+        position: absolute;
+        float: left;
+        margin: 0 auto;
+        left: 0;
     }    
     #company p{
-        //margin: 2vh auto;
-        font-size: 100%;
+        font-size: 1.8vmax;
         display: inline-block;
-        width: 50%;
-        padding: 3%;
-        position: relative;
-        top: -30%;
-        text-align: center;
-    }
-    #company{
-        //text-align: center;
-        //height: 90vh;
+        width: 60%;
+        height: 70vh;
+        padding: 2%;
+        top: 10vh;
+        position: absolute;
+        left: 30%;
+        margin-top: 12vh;
     }
 }
 /* ------------------- TEAM ------------------- */
