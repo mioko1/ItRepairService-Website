@@ -108,7 +108,7 @@ li{
     padding: 5%;
     display: block;
 }
-@media (min-width: 1500px){
+@media (min-width:  1500px){
     #company img{
         height: 100vh;
         width: 24%;
@@ -184,20 +184,30 @@ h3{
 }
 /* ------------------- SERVICES ------------------- */
 #services{
-    padding-top: 15vh;
+    height: 200vh;
+    padding-top: 8vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
 }
-#services div{
-    width: 600px;
-    max-height: 30vh;
-    //border: 2px solid black;
-    margin-left: 20px;
+#services img{
+    width: 80vw;
+    max-height: 80vh;
+    margin-left: 10vw;
     background-size: contain;
     background-position: center;
     cursor: pointer;
     margin-top: 50px;
+}
+@media (min-width: 594px){
+    #services{
+        height: 100vh;
+        padding-top: 8vh;
+    }
+    #services img{
+        width: 30vw;
+        max-height: 40vh;
+    }
 }
 .service1{
   background: url(pictures/coder-1869306_1920.jpg) no-repeat;
