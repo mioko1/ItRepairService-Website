@@ -6,7 +6,7 @@
 body{
     font-size: 30px;
 }
-header, section, main, footer{
+header, section, main{
     width: 90vw;
     margin: 0 auto;
     //border: 1px solid red;
@@ -245,17 +245,16 @@ h3{
 }
 /* ------------------- CONTACT ------------------- */
 #contact{
-    height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
+    height: 90vh;
+    padding-top: 12vh;
+    //overflow: auto;
 }
 .address,form{
-    position: relative;
-    margin-left: 5vw;
-    margin-top: 100px;
-    width: 700px;
+    width: 60vw;
+    height: 40vh;
+    font-size: 2vmax;
+    margin: 5vh auto;
+    text-align: center;
 }
 input, textarea{
     font-size: 100%;
@@ -276,6 +275,17 @@ button{
     font-size: 80%;
     margin-top: 3vh;
 }
+@media (min-width: 900px){
+    .address,form{
+        display: inline-block;
+    }
+    .address,form{
+        margin-left: 5vw;
+        margin-top: 10vh;
+        width: 35vw;
+        vertical-align: top;
+    }
+}
 /* ------------------- FOOTER ------------------- */
 footer{
     height: 10vh;
@@ -284,6 +294,10 @@ footer{
     position: relative;
     color: white;
     text-align: center;
+    //bottom: 0;
+    display: block;
+    //margin-top: 5px;
+    border: 5px solid pink;
 }
 footer p{
     font-size: 50%;
