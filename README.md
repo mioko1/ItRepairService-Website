@@ -9,13 +9,15 @@ Animation:
 * SERVICES - resizing photo after hover mouse over it
 
 
+
 Responsive website:
+
 ```
-> mobile version (mobile first)
+* mobile version (mobile first)
 ```
 ![](https://github.com/mioko1/ItRepairService-Website/blob/master/view/mobileVersion.png)
 ```
-> desktop version (mobile first)
+* desktop version (mobile first)
 ```
 ![](https://github.com/mioko1/ItRepairService-Website/blob/master/view/desktopVersion.png)
 
