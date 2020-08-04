@@ -12,7 +12,7 @@ Animation:
 Responsive website:
 ```
 > mobile version (mobile first)
-![](view/mobileVersion.pdf)
+![](https://github.com/mioko1/ItRepairService-Website/blob/master/view/mobileVersion.png)
 > desktop version (mobile first)
-![](view/desktopVersion.pdf)
+![](https://github.com/mioko1/ItRepairService-Website/blob/master/view/desktopVersion.png)
 ```
